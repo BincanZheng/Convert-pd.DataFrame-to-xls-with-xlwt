@@ -17,7 +17,7 @@ import xlrd
 # In[2]:
 
 
-monthly_pandas_data = pd.read_csv(r'.\Sample Data.csv',encoding='gbk',index_col=0,mangle_dupe_cols=2,header=[0,1])
+monthly_pandas_data = pd.read_csv(r'.\Sample_Data.csv',encoding='gbk',index_col=0,mangle_dupe_cols=2,header=[0,1])
 
 
 # # Help Functions
@@ -241,7 +241,7 @@ worksheet.col(0).width = 256 * 14           # 设置14列宽 excel 1 列宽 = 25
 # In[10]:
 
 
-workbook.save(r'.\Sample Result.xls')
+workbook.save(r'.\Sample_Result.xls')
 
 
 # In[ ]:
